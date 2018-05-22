@@ -1,0 +1,94 @@
+html{
+  background-image: url(../img/art-button-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  background: linear-gradient(to right, rgba(60, 0, 0, 0.9) 0%, rgba(140, 0, 0, 1) 75%, rgba(140, 0, 0, 1) 100%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.15em;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 5.75em;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 3em;
+}
+
+h3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 2em;
+}
+
+h4 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.5em;
+}
+
+h5 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.25em;
+}
+
+em {
+  font-style: italic;
+}
+
+
+img {
+  /*
+  border-bottom-color: rgba(255, 255, 255, 1);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  */
+
+  padding: 7.5px;
+
+}
+
+/* Footer Master */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  padding-top: 25px;
+  padding-bottom: 60px;
+
+  border-style: outset;
+  border-top-width: 1px;
+  border-top-color: rgba(255, 255, 255, 1);
+}
+
+.footer-container {
+  width: 50px;
+  height: 50px;
+
+  color: rgba(255, 255, 255, 1);
+  font-size: 2em;
+  text-align: center;
+
+  margin-left: 5px;
+  margin-right: 5px;
+}

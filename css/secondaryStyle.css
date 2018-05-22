@@ -1,0 +1,99 @@
+/* =========================================================================== */
+/* ============================== Navigation ================================= */
+/* =========================================================================== */
+nav {
+  list-style: none;
+  display: flex;
+  position: fixed;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  width: 17.5%;
+  height: 100%;
+
+  margin-left: 82.5%;
+
+  background-color: rgba(70, 0, 0, 1);
+}
+
+.nav-home {
+  transition-timing-function: ease-in-out;
+  transition: 0.5s;
+}
+
+.nav-home:hover {
+  background-color: rgba(100, 0, 0, 1)
+}
+
+.nav-item {
+  transition-timing-function: ease-in-out;
+  transition: 0.5s;
+}
+
+.nav-item:hover {
+  background-color: rgba(100, 0, 0, 1)
+}
+
+.nav-home-content {
+  width: 95%;
+
+  margin-left: 5%;
+  padding-right: 5%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.nav-item-content {
+  width: 95%;
+
+  margin-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-style: solid;
+  border-top-width: 1px;
+  border-top-color: rgba(255, 255, 255, 1);
+}
+
+/* =========================================================================== */
+/* ========================== MAIN CONTAINER ================================= */
+/* =========================================================================== */
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+main {
+  width: 82.5%;
+  margin-right: 17.5%;
+}
+
+footer{
+  width: 82.5%;
+  margin-right: 17.5%;
+}
+
+article{
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.page-header {
+  margin-left: 15%;
+}
+
+.page-container {
+  padding-top: 100px;
+}
+
+.page-container h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

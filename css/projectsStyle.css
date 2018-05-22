@@ -1,0 +1,44 @@
+.projects-container {
+  padding-left: 2.5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects-container.border {
+  border-top-color: rgba(255, 255, 255, 1);
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+.projects-header {
+
+}
+
+.projects-header h3 {
+
+}
+
+.projects-header h5 {
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+.projects-information {
+  width: 35%;
+  padding-right: 2.5%;
+}
+
+.projects-images {
+  background-color: rgba(70, 0, 0, 1);
+
+  padding: 10px;
+  width: 60%;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
